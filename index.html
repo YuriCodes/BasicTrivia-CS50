@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <title>Trivia Project CS50</title>
+</head>
+<body>
+    
+    <div class="jumbotron">
+        <h1>Trivia!</h1>
+    </div>
+
+    <div class="container">
+
+        <div class="section">
+            <h2>Part 1: Multiple Choice </h2>
+            <hr>
+
+            <!-- TODO: Add multiple choice question here -->
+            <h3> What's Spiderman's real identity? </h3>
+            <button class="wrong">Peterius Park </button> <button class="right">Peter Parker </button> <button class="wrong"> Peter Stark</button>
+            <h4 id="correct">Correct!</h4>
+            <h4 id="incorrect">Incorrect!</h4>
+
+        </div>
+
+        <div class="section">
+            <h2>Part 2: Free Response</h2>
+            <hr>
+
+            <!-- TODO: Add free response question here -->
+            <form class="form" id="form">
+            <h3> What brought all the boys to the yard?</h3>
+            <input autocomplete="off" id="answer" type="text">
+            <button>Submit</button> 
+            <button onClick="erase()">Reset </button></input>
+            <h4 id="AnswerCorrect">Correct!</h4>
+            <h4 id="AnswerIncorrect">Incorrect!</h4>
+            </form>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

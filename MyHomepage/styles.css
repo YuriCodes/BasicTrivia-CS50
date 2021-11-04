@@ -1,0 +1,103 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+/*index.html styles*/
+
+.containerIndex{
+    opacity: 0.8;    
+    max-width: 50vw;
+    height: 25vh;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+.mainContent{
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 25px;
+    color: #896994;
+
+}
+
+.intro{
+    width: 80vw;
+    height: 20vh;
+    text-align: center;
+    margin-left: 50px;
+    color: #896994;
+
+}
+
+
+/*end of index.html styles*/
+
+footer{
+    text-align: center;
+
+}
+
+/*About.html styles*/
+
+.aboutContainer{
+    background-color: #e1e1e1;
+    opacity: 0.8;    
+    max-width: 80vw;
+    height: fit-content;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.about{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.paragraph{
+    text-align: justify;
+}
+
+/*end of about.html styles*/
+
+/*Work.html styles*/
+
+.workSection{
+    opacity: 0.8;    
+    max-width: 50vw;
+    height: 25vh;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+  
+}
+
+.simonGametext, .tacoZenText{
+    font-size: 30px;
+}
+
+
+/*end of work.html styles*/
+
+/*Contact.html styles*/
+
+.social{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    color: #896994;
+}
+
+.socialContainer{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+/*end of contact.html styles*/
